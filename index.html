@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <section class="grid lg:grid-cols-4 gap-3 md:grid-cols-2 grid-cols-1 p-3">
+    <section class="grid lg:grid-cols-2 gap-3 md:grid-cols-2 grid-cols-1 p-3">
+        <!-- live time -->
         <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg flex-col space-y-3">
             <img class="w-20 h-auto" src="./assest/time.png" alt="">
-            <div class="text-4xl text-[#00aeef] flex items-center justify-center font-mono">
+            <div class="text-4xl text-[#00aeef] flex items-center justify-center font-mono gap-2">
                 <div class="">
                     <span id="hours">00</span>
                 </div>
@@ -25,13 +26,16 @@
                 <div>
                     <span id="Seconds">00</span>
                 </div>
+                <span id="am-pm"></span>
             </div>
             <div class="flex gap-2 text-[#13a89e] text-2xl font-semibold" id="date-month-year">
             </div>
         </div>
 
+            <!-- timer -->
         <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg">
             <img class="w-20 h-auto" src="./assest/alarm.png" alt="">
+            <input type="number" name="" id="timerHours">
         </div>
         <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg">
             <img class="w-20 h-auto" src="./assest/timeWatch.png" alt="">
