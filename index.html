@@ -5,10 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.11/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <h1>Hello world!!</h1>
+    <section class="grid lg:grid-cols-4 gap-3 md:grid-cols-2 grid-cols-1">
+        <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg flex-col space-y-3">
+            <img class="w-20 h-auto" src="./assest/time.png" alt="">
+            <div class="text-4xl text-[#00aeef] flex items-center justify-center font-mono">
+                <div class="">
+                    <span id="hours">00</span>
+                </div>
+                <span class="text-white">:</span>
+                <div>
+                    <span id="minuets">00</span>
+                </div>
+                <span class="text-white">:</span>
+                <div>
+                    <span id="Seconds">00</span>
+                </div>
+            </div>
+            <div class="flex gap-2 text-[#13a89e] text-4xl font-semibold">
+                <span id="day">wednesday</span> 
+                <span id="month">June</span> 
+                <span id="year">2024</span> 
+            </div>
+        </div>
+
+        <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg">
+            <img class="w-20 h-auto" src="./assest/alarm.png" alt="">
+        </div>
+        <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg">
+            <img class="w-20 h-auto" src="./assest/timeWatch.png" alt="">
+        </div>
+        <div class="border flex items-center justify-center p-4 rounded-lg shadow-lg">
+            <img class="w-20 h-auto" src="./assest/time.png" alt="">
+        </div>
+    </section>
 </body>
 
 </html>
